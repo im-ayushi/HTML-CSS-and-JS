@@ -1,0 +1,120 @@
+    body {
+    background-color: white;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    
+    
+    
+    .header
+    {
+    background-color:rgb(60, 196, 150);
+    text-align: center;
+    padding:1px;
+    color:white;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    
+    }
+    
+    
+    
+    .footer
+    {
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:rgb(60, 196, 150);
+    text-align: center;
+    color:white;
+    }
+    
+    
+    
+    form
+    {
+    border-right:3px solid #3cc496;
+    }
+    
+    
+    
+    
+    #table1
+    {
+    line-height:220%;
+    width:450px;
+    margin-top: 90px;
+    margin-left: 90px;
+    vertical-align: top;
+    }
+    
+    
+    
+    input[type=text], select, textarea
+    {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 2%;
+    }
+    
+    
+    
+    
+    #submitForm
+    {
+    color:white;
+    background-color:rgb(15, 15, 230);
+    border-radius:5px;
+    margin:10px;
+    margin-left:0px;
+    }
+    
+    
+    
+    #clear
+    {
+    color:white;
+    background-color:red;
+    border-radius:5px;
+    margin-right: 0px;
+    }
+    
+    
+    
+    .studentsList
+    {
+    margin-left: 250px;
+    margin-top: 70px;
+    }
+    #table2
+    {
+    text-align: left;
+    width: 450px;
+    border: 1px solid;
+    margin-left: -300px;
+    margin-right: 0px;
+    border: 1px solid #6b8e23;
+    }
+    table thead,th
+    {
+    background-color: #a3d147;
+    color: white;
+    }
+    #table2 td
+    {
+    border: 2px solid #6b8e23;
+    position: sticky;
+    }
+    
+    
+    
+    #table2 tr:nth-child(even), table.list thread> tr{
+    background-color: rgba(235,242,211,255);
